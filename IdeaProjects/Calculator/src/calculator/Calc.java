@@ -22,5 +22,5 @@ public class Calc {
                 throw new IllegalArgumentException("Не верный знак");
         }
         return result;
-}
+    }
 }
