@@ -2,6 +2,8 @@ package calculator;
 
 import java.util.InputMismatchException;
 
+// Класс для конвертирования римских цифр
+
 public class Roman {
      public static int romanNumber(String roman) {
         try {
@@ -31,5 +33,5 @@ public class Roman {
             throw new InputMismatchException("Неверный формат данных");
         }
         return -1;            
-        }
+    }
 }
